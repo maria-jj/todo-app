@@ -13,7 +13,7 @@ export const Todo = (props) => {
     }, []);
 
     useEffect( () =>{
-        setIsComplete(props.todoId, isComplete)
+        todosContext.updateTodo(props.todoId, isComplete)
     }, [isComplete]);
     
    

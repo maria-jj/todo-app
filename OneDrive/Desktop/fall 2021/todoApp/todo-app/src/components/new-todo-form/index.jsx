@@ -43,7 +43,7 @@ return(
         required/>
         <Input
         type="date"
-        name="title"
+        name="date"
         label="due date" errors={errors}
         register={register}
         validationSchema={
